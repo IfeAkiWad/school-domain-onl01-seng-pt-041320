@@ -23,7 +23,7 @@ class School
     # binding.pry
   end
 
-  def sort(name)
+  def sort
     @roster.map { |k, v| v.sort }
   end
 end
