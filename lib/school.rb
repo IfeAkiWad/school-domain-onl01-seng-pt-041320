@@ -14,7 +14,7 @@ class School
         @roster[grade] << name
     else
       @roster[grade] = []
-        @roster << name grade
+        @roster[grade] << name grade
     end
     # binding.pry
   end
