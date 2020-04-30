@@ -1,4 +1,4 @@
-# require 'pry'
+require 'pry'
 
 class School
   attr_accessor :grade
@@ -16,5 +16,8 @@ class School
       @roster[grade] = []
         @roster[grade] << name
     end
+  end
+  def grade
+    @roster[grade]
   end
 end
