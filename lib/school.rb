@@ -1,4 +1,4 @@
-# require 'pry'
+require 'pry'
 
 class School
   attr_accessor :grade
@@ -14,8 +14,8 @@ class School
         @roster[grade] << name
     else
       @roster[grade] = []
-        @roster[grade] << name 
+        @roster[grade] << name
     end
-    # binding.pry
+    binding.pry
   end
 end
