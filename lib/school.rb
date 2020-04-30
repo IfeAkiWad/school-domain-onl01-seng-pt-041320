@@ -24,6 +24,5 @@ class School
   end
 
   def sort(name)
-    # name.sort
   end
 end
