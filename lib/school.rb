@@ -1,3 +1,5 @@
+require 'pry'
+
 class School
   attr_accessor :grade
   attr_reader :name, :roster
@@ -8,5 +10,7 @@ class School
   end
 
   def add_student(name, grade)
-  end  
+    @roster =
+    binding.pry
+  end
 end
